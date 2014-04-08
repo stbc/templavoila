@@ -394,7 +394,7 @@ class tx_templavoila_module2 extends \TYPO3\CMS\Backend\Module\BaseScriptClass {
 		}
 
 		$showDetails = sprintf(' <label for="set_details">%s</label> &nbsp;&nbsp;&nbsp;', $LANG->getLL('showdetails', 1));
-		$showUnused = sprintf(' <label for="set_details">%s</label> &nbsp;&nbsp;&nbsp;', $LANG->getLL('showuused', 1));
+		$showUnused = sprintf(' <label for="set_unusedDs">%s</label> &nbsp;&nbsp;&nbsp;', $LANG->getLL('showuused', 1));
 
 		// Create setting handlers:
 		$settings = '<p>' .
